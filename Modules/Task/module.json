@@ -1,0 +1,13 @@
+{
+    "name": "Task",
+    "alias": "task",
+    "description": "Task module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models.",
+    "keywords": ["task", "tasks"],
+    "order": 0,
+    "providers": [
+        "Modules\\Task\\Providers\\TaskServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

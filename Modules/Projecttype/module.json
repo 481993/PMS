@@ -1,0 +1,13 @@
+{
+    "name": "Projecttype",
+    "alias": "projecttype",
+    "description": "Projecttype module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models.",
+    "keywords": ["projecttype", "projecttypes"],
+    "order": 0,
+    "providers": [
+        "Modules\\Projecttype\\Providers\\ProjecttypeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

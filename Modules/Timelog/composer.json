@@ -1,0 +1,27 @@
+{
+    "name": "nasirkhan/timelog-module",
+    "description": "Timelog module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models.",
+    "type": "laravel-module",
+    "version": "v4.0.0",
+    "authors": [
+        {
+            "name": "Nasir Khan",
+            "email": "nasir8891@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Timelog\\Providers\\TimelogServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Timelog\\": ""
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Project",
+    "alias": "project",
+    "description": "Project module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models.",
+    "keywords": ["project", "projects"],
+    "order": 0,
+    "providers": [
+        "Modules\\Project\\Providers\\ProjectServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

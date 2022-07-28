@@ -1,0 +1,13 @@
+{
+    "name": "Tasktype",
+    "alias": "tasktype",
+    "description": "Tasktype module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models.",
+    "keywords": ["tasktype", "tasktypes"],
+    "order": 0,
+    "providers": [
+        "Modules\\Tasktype\\Providers\\TasktypeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

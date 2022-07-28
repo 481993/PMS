@@ -1,0 +1,88 @@
+body{height: 100vh;}
+table #taskbidders td .myMenu .dropDownMenu li a:active ul li{display:none;}
+/****** PMS Main Screen Start *****/
+.btn-outline-white:hover {color: #555 !important;}
+footer .container hr{border-top: 0.0625rem solid rgba(255,255,255,.05) !important;}
+.headroom--not-top.navbar-theme-primary {border-bottom: 1px solid rgba(255,255,255,.5);}
+.bg-gradient-primary{background-color: #321fdb;}
+.email-input{border:1px solid rgba(0,0,0,.07);}
+/****** PMS Main Screen End *******/
+
+/****** PMS Welcome Start *****/
+.welcome-txt{font-size:4rem;}
+/****** PMS Welcome End *******/
+
+/****** Side Bar Start*******/
+.c-sidebar .c-sidebar-brand{background-color:transparent;}
+.c-sidebar{background-color: #fff;background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(202, 224, 250, 1) 100%);}
+.c-sidebar .c-sidebar-nav-dropdown-toggle, .c-sidebar .c-sidebar-nav-link, 
+.c-sidebar .c-sidebar-nav-dropdown-toggle .c-sidebar-nav-icon, .c-sidebar .c-sidebar-nav-link .c-sidebar-nav-icon{color:#222;}
+.c-sidebar .c-sidebar-nav-dropdown-toggle:hover, .c-sidebar .c-sidebar-nav-link:hover,
+.c-sidebar .c-sidebar-nav-dropdown-toggle:hover, .c-sidebar .c-sidebar-nav-link:hover i{color:#fff !important;}
+.c-sidebar .c-sidebar-nav-dropdown.c-show .c-sidebar-nav-dropdown-toggle, .c-sidebar .c-sidebar-nav-dropdown.c-show .c-sidebar-nav-link{color:#555;}
+.c-sidebar .c-active.c-sidebar-nav-dropdown-toggle, .c-sidebar .c-sidebar-nav-link.c-active,
+.c-sidebar .c-active.c-sidebar-nav-dropdown-toggle .c-sidebar-nav-icon, .c-sidebar .c-sidebar-nav-link.c-active .c-sidebar-nav-icon{color:#555;}
+/****** Side Bar End*******/
+
+/****** Header Top Start ********/
+.c-header{background-color: #321fdb; background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(202, 224, 250, 1) 100%);}
+.c-subheader{background-color: #fff !important;}
+.c-header .c-header-nav .c-header-nav-btn, .c-header .c-header-nav .c-header-nav-link,
+.c-header .c-header-nav .c-header-nav-link:hover{color:#000;}
+.c-header .c-subheader{margin-top:0px;}
+.c-wrapper:not(.c-wrapper-fluid) .c-body{background-color: #fff;}
+.dropdown-menu{padding-bottom:0px;}
+.c-header-nav-link:focus i{color:#fff;}
+.btn-warning i{color:#fff;}
+.table#dataTable{border-top:none;}
+/****** Header Top End **********/
+
+/****** Table Global Start *********/
+.table td{padding:0.8rem 0.75rem;vertical-align: middle;}
+.table-bordered, .table-bordered td, .table-bordered th{border-right: none;border-left: none;}
+.btn-success{margin-left:3px;}
+/****** Table Global End ***********/
+
+/****** Dashboard Body Start ******/
+.card{border:1px solid #ddd;}
+.btn-info{background-color: #321fdb;border-color: #321fdb;}
+/****** Dashboard Body End ********/
+
+/****** Department Table Start *********/
+.table.table-bordered.dataTable tbody td{vertical-align: middle;}
+.form-control-sm{padding:.25rem 1.5rem;}
+.btn-success, .btn-secondary{background-color: #fff;border-color: #999;color:#4f5d73;}
+.btn-success:hover, .btn-success:active, .btn-success:focus, .btn-create{background-color:#321fdb !important;border-color:#321fdb !important;color:#fff;}
+.btn-success:focus{box-shadow:0 0 0 0.2rem rgb(50 31 219 / 50%);}
+.table-hover tbody tr:hover {background-color: rgba(0, 0, 21, .035);}
+/* .text-muted{margin:5px;} */
+/****** Department Table End ***********/
+
+/****** Tasks Table Start **********/
+table #taskbidders td .myMenu{float:right;}
+table #taskbidders td .myMenu .dropDownMenu li a:hover {background: #ddd;border-radius: 5px;}
+table #taskbidders td .myMenu .dropDownMenu li a{padding:3px 10px;}
+table #taskbidders td .myMenu .dropDownMenu li ul li a{padding:10px 12px;}
+table #taskbidders td .dropDownMenu > li > ul{right: 0 !important;width: 150px !important;border-radius: 5px;}
+/****** Tasks Table End ************/
+
+/****** Timer Start **********/
+.timer-start .submitLog{position: relative;text-transform: none;transition: all .15s ease;letter-spacing: .025em;font-size: .875rem;will-change: transform;color: #fff;padding: 7px 20px;background-color: #321fdb;margin-top:15px;margin-bottom:20px;border-color: transparent;border-radius: 50px;}
+.timer-start .timer #main button{position: relative;text-transform: none;transition: all .15s ease;letter-spacing: .025em;font-size: .875rem;will-change: transform;color: #4f5d73;background-color: #f5f5f5;font-weight:600;border-color: transparent;border-radius: 50px;}
+.timer-start .timer #main input, .timer-start .timer #main input:focus-visible{border:none;}
+.timer-table tr th{color:#3c4b64;border:none;padding: 10px 20px;}
+.timer-table #lap tr td{padding: 10px 20px;}
+.timer-start .timer #main{text-align:left;}
+.timer-start .float-left, .timer-table{width:100%;}
+.timer-table, .timer-table #lap tr td{border-left:none !important;border-right:none !important;border: 1px solid #d8dbe0;margin-top:10px;margin-bottom:20px;}
+
+/****** Timer End ************/
+
+img.c-sidebar-brand-full {
+    width: 100%;
+    max-width: 150px;
+}
+
+@media screen and (max-width: 425px){
+    .timer-start .timer #main{display: grid;}
+}

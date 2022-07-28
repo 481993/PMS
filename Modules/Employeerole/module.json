@@ -1,0 +1,13 @@
+{
+    "name": "Employeerole",
+    "alias": "employeerole",
+    "description": "Employeerole module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models.",
+    "keywords": ["employeerole", "employeeroles"],
+    "order": 0,
+    "providers": [
+        "Modules\\Employeerole\\Providers\\EmployeeroleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

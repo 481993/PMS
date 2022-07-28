@@ -1,0 +1,13 @@
+{
+    "name": "Projectassign",
+    "alias": "projectassign",
+    "description": "Projectassign module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models.",
+    "keywords": ["projectassign", "projectassigns"],
+    "order": 0,
+    "providers": [
+        "Modules\\Projectassign\\Providers\\ProjectassignServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Milestone",
+    "alias": "milestone",
+    "description": "Milestone module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models.",
+    "keywords": ["milestone", "milestones"],
+    "order": 0,
+    "providers": [
+        "Modules\\Milestone\\Providers\\MilestoneServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

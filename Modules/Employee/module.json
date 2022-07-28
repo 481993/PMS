@@ -1,0 +1,13 @@
+{
+    "name": "Employee",
+    "alias": "employee",
+    "description": "Employee module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models.",
+    "keywords": ["employee", "employees"],
+    "order": 0,
+    "providers": [
+        "Modules\\Employee\\Providers\\EmployeeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

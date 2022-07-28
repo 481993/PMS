@@ -1,0 +1,13 @@
+{
+    "name": "Timelog",
+    "alias": "timelog",
+    "description": "Timelog module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models.",
+    "keywords": ["timelog", "timelogs"],
+    "order": 0,
+    "providers": [
+        "Modules\\Timelog\\Providers\\TimelogServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

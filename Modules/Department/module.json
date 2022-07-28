@@ -1,0 +1,13 @@
+{
+    "name": "Department",
+    "alias": "department",
+    "description": "Department module for Laravel Starter, nasirkhan/laravel-starter. It can be used with any other Models.",
+    "keywords": ["department", "departments"],
+    "order": 0,
+    "providers": [
+        "Modules\\Department\\Providers\\DepartmentServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

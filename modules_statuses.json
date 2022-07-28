@@ -1,0 +1,17 @@
+{
+    "Article": true,
+    "Tag": true,
+    "Comment": true,
+    "Department": true,
+    "Employee": true,
+    "Employeerole": true,
+    "Milestone": true,
+    "Project": true,
+    "Projecttype": true,
+    "Task": true,
+    "Tasktype": true,
+    "Timelog": true,
+    "Projectassign": true,
+    "Timelogright": true,
+    "Resource": true
+}
